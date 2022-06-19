@@ -9,7 +9,7 @@ class DbQueries {
     Sql currentSqlInstance
 
     DbQueries(){
-        def dbName = "Lisiplast_Test"
+        def dbName = "Database_Test"
 
         def url = "jdbc:postgresql://localhost:5432/$dbName"
         def user = 'postgres'
