@@ -11,7 +11,7 @@ class App {
     }
 
     void startProgram(){
-        String filePath = "C:/Users/karol/Desktop"
+        String filePath = "C:/Users/Andrius/Desktop"
         RateCalculator rateCalculator = new RateCalculator()
         rateCalculator.calculateRate(filePath)
     }
